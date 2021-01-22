@@ -531,10 +531,23 @@ a:hover {
 
 .picture {
 	width: 100%;
+	background-image: url(images/about-pic2.jpg);
+	background-size: 100% 100%;
 }
 
 .picture img {
 	width: 100%;
+}
+
+/* to keep 9:16 ratio */
+.ratio-special:before {
+	content: "";
+	display: block;
+	padding-top: 66.63%;
+}
+
+.margin-offset-special{
+	margin-top: -66.63%;
 }
 
 .self-intro {
@@ -598,5 +611,14 @@ a:hover {
 	font-size: 15px;
 	font-family: helvetica, sans-serif;
 	line-height: 1.8em;
+}
+
+.power-by{
+	font-size: 13px;
+	color: #999999;
+}
+
+.power-by a{
+	color: #575757;
 }
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
