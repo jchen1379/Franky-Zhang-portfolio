@@ -189,8 +189,9 @@ a:hover {
 }
 
 .project:hover{
-	/* transform: scale(1.05); */
-	opacity: 0.8;
+	opacity: 0.85;
+	transform: scale(1.03);
+	transition: 0.4s;
 }
 
 @media (max-width: 750px) {
