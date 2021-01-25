@@ -85,7 +85,7 @@ a:hover {
 .title {
 	font-size: 12px;
 	font-family: helvetica;
-	color: #DDDDDD;
+	color: #ccc9ce;
 	margin-top: 0px
 }
 
@@ -99,7 +99,9 @@ a:hover {
 
 .navlink {
 	font-size: 13px;
-	font-family: futura;
+	font-family: helvetica;
+	font-weight: lighter;
+	letter-spacing: 1px;
 	color: #999999;
 	padding: 20px 0;
 }
@@ -118,7 +120,7 @@ a:hover {
 
 .mobile-nav-bar a {
 	font-size: 16px;
-	font-family: futura;
+	font-family: helvetica;
 	font-weight: lighter;
 	color: #999999;
 	width: 100%;
@@ -261,8 +263,8 @@ a:hover {
 	text-align: center;
 	margin-bottom: 15px;
 	font-size: 30px;
-	font-family: futura;
-	font-weight: bold;
+	font-family: helvetica;
+	font-weight: bolder;
 	color: #222222;
 }
 
@@ -321,7 +323,7 @@ a:hover {
 }
 
 .picture-container {
-	width: 48%;
+	width: 48.5%;
 	margin-top: 36px;
 }
 
